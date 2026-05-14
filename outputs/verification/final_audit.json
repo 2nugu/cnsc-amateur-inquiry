@@ -1,0 +1,93 @@
+{
+  "parameters": {
+    "M_GUT": 1e+16,
+    "LAMBDA_C": 1e+20,
+    "PHI_0": 1e-05,
+    "H_STAR": 1e-10,
+    "ETA_ISING": 0.036298,
+    "OMEGA_ISING": 0.83,
+    "BA_LOW": 0.001,
+    "BA_HIGH": 0.1,
+    "EPS_EFF": 0.01,
+    "S_CRIT": 1e-06,
+    "C_S_EFF": 0.001
+  },
+  "checks": [
+    {
+      "name": "T3.3  n_s = 1 - η_Ising",
+      "claim": "0.9637",
+      "computed": "0.9637",
+      "status": "pass",
+      "note": "Planck 2018: 0.9649 ± 0.0042 → 0.29σ"
+    },
+    {
+      "name": "Q3 hedge  n_s under Model B",
+      "claim": "≈ 0.955 (~2.3σ from Planck)",
+      "computed": "0.9545",
+      "status": "pass",
+      "note": "If Model B applies, prediction falls outside 1σ — distinguishable by CMB-S4"
+    },
+    {
+      "name": "D3 prediction  α_s = η(1 - 1/ω)",
+      "claim": "≈ -0.007  (from 3D Ising ω=0.83)",
+      "computed": "-0.0074",
+      "status": "pass",
+      "note": "Testable by CMB-S4 (Planck reach insufficient)"
+    },
+    {
+      "name": "T3.7  r-window for β/α ∈ [1e-3, 1e-1] with S_crit=1e-6",
+      "claim": "r ∈ [1e-07, 1e-05]",
+      "computed": "r ∈ [1.60e-07, 1.60e-05]",
+      "status": "pass",
+      "note": "Window assumes critical-point sound-speed suppression S_crit ~ 1e-6 (open T2.x assumption)"
+    },
+    {
+      "name": "T3.7 vs falsifier r > 1e-4",
+      "claim": "falsifier above upper window",
+      "computed": "r_max = 1.60e-05, falsifier = 1e-04",
+      "status": "pass",
+      "note": "If r_max < r_falsifier → consistent; if r_max > r_falsifier → window self-falsifies"
+    },
+    {
+      "name": "T2.4  k_* = (M^4 H^2 / λφ²)^(1/4)",
+      "claim": "~ 3e8 (natural units)",
+      "computed": "3.162e+08",
+      "status": "pass",
+      "note": "Saturation scale separating EFT-valid (T2.6) from speculative-extrapolation regime"
+    },
+    {
+      "name": "T3.5  f_NL^(0)(k=0.05 Mpc⁻¹)",
+      "claim": "≪ 5 (Planck-compatible)",
+      "computed": "0.000e+00  (0.176σ from Planck)",
+      "status": "pass",
+      "note": "Planck 2018 local f_NL = -0.9 ± 5.1"
+    },
+    {
+      "name": "T3.5  f_NL^(0)(k=k_*)",
+      "claim": "O(1) (saturation order)",
+      "computed": "0.3241",
+      "status": "pass",
+      "note": "Crosses ~0.32 at k=k_*, consistent with γ²-1 = 1 here"
+    },
+    {
+      "name": "T3.8  f_NL^(2)/f_NL^(0) at k=k_*",
+      "claim": "~ (β/α)/2 ≈ 5e-3 at β/α=1e-2",
+      "computed": "5.000e-03",
+      "status": "pass",
+      "note": "Parametric estimate; full second-order shear bispectrum is open Class III"
+    },
+    {
+      "name": "Falsifier-4 threshold  |f_NL^(2)/f_NL^(0)| < 1e-3 isotropic",
+      "claim": "above-threshold detection supports T3.8",
+      "computed": "predicted ratio at k_* = 5.000e-03",
+      "status": "pass",
+      "note": "Predicted ratio > 1e-3 threshold → distinguishable by Euclid/SPHEREx"
+    }
+  ],
+  "summary": {
+    "pass": 10,
+    "warn": 0,
+    "fail": 0,
+    "total": 10
+  }
+}
