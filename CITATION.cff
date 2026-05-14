@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you reference this archive, please cite it as below."
+type: dataset
+title: "Self-Falsification as Method: A Cosmology Case Study"
+abstract: >
+  A serious-amateur exploration of Critical Null-Structured Cosmology
+  (CNSC), a non-inflationary cosmological framework based on null
+  hypersurface geometry, DBI-saturated kinetic action, and a 3D Ising-type
+  phase transition.
+
+  Conducted by an agricultural engineer as a personal theoretical-cosmology
+  interest.  A systematic seven-weakness derivation program found that all
+  of the framework's novel quantitative content is not mathematically
+  derivable from the stated assumptions.  A successor framework
+  ("framework v2", path-integral coherence VSL hypothesis) was outlined and
+  tested by grid search; it was also found cosmologically unobservable at
+  any parameter value.  Total: 8 negative outcomes, 0 surviving novel
+  quantitative content.
+
+  The most transferable artifact is the methodology M1-M8 codified in
+  framework_v2/03_methodology.md, applicable to alternative-theory
+  verification in any domain, including machine-learning model verification
+  in the author's primary agricultural-engineering work.
+
+  Not a peer-reviewed publication; an idea and methodology archive.
+authors:
+  - family-names: "Lee"
+    given-names: "Hong-Gu"
+    affiliation: "Interdisciplinary Program in Smart Agriculture, Kangwon National University; Department of Biosystems Engineering, Kangwon National University"
+    city: "Chuncheon"
+    country: "KR"
+date-released: 2026-05-14
+keywords:
+  - cosmology
+  - non-inflationary
+  - null geometry
+  - axiomatic methodology
+  - negative result
+  - honest derivation
+  - AI-collaborative inquiry
+  - amateur science
+  - cross-disciplinary
+  - methodology transfer
+license: CC-BY-4.0
