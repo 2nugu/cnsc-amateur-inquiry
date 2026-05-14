@@ -1,5 +1,6 @@
 # Self-Falsification as Method: A Cosmology Case Study
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20176660.svg)](https://doi.org/10.5281/zenodo.20176660)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 *An agricultural engineer's 1-year cosmology framework (CNSC), honestly tested and broken — and what the process taught.*
