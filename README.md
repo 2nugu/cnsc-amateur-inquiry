@@ -8,7 +8,9 @@
 **A serious-amateur theoretical-cosmology inquiry by an agricultural engineer.**
 
 - **Author**: Hong-Gu Lee (이홍구)
-- **Affiliations**: Interdisciplinary Program in Smart Agriculture · Department of Biosystems Engineering, Kangwon National University, Chuncheon, Korea
+- **Affiliations**:
+    - Department of Interdisciplinary Program in Smart Agriculture, Kangwon National University, Chuncheon, Republic of Korea
+    - Department of Biosystems Engineering, Kangwon National University, Chuncheon, Republic of Korea
 - **Status**: hobby project, taken seriously.  *Not* peer-reviewed.  *Not* an active research program in the author's primary domain.
 
 **On tone**: the *content rigor* in this archive is real — derivations are explicit, results are reproducible, negative outcomes are stated as found.  The *time investment and intent* is hobby.  The two are not in tension: a hobby can be pursued with full intellectual honesty.
