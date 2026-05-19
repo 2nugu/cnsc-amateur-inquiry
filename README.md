@@ -129,12 +129,6 @@ A systematic test of the 7 weaknesses identified by the audit (`archive_cnsc_pap
 
 **Result**: 7 of 7 weaknesses returned negative or cascade-negative.  The CNSC framework's *novel* quantitative content (DBI-saturation $f_{NL}(k)$ shape, Ising universality $n_s$ derivation, quadrupolar $f_{NL}^{(2)}$, $r$-window) is not mathematically derivable from the stated assumptions.
 
-The user's response to this finding was the key methodological event of the project:
-
-> *"아닌건 아닌거지 이론이 무너지는 것도 수학적으로 타당하다면 그렇게 되어야 하는거야 내가 접근한 방식이 잘못되었던거지."*
-
-> *"다 안되도 괜찮아 내 직관과 가정중에 맞는게 뭐가 있는지 증명할 수 있는게 뭐가 있는지가 궁금하네."*
-
 The catalog of which 11 user-intuitions survived mathematically (`docs/derivations/00_intuition_catalog.md`) is the inquiry's primary intellectual output.  The new framework v2 starts from the 4 surviving intuitions plus the user's independent *path-integral coherence VSL* insight, which was developed during the inquiry but is independent of CNSC's failed components.
 
 ## Navigation
